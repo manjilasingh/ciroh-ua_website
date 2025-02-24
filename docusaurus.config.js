@@ -97,7 +97,7 @@ const config = {
           src: "img/docuhub-logo.png",
         },
         items: [
-          { to: "blog", label: "Blog", position: "right" },
+          
           {
             type: "doc",
             docId: "products/intro",
@@ -129,6 +129,11 @@ const config = {
             position: "left",
           },
           {
+            type: "docsVersionDropdown", 
+            position: "right",
+          },
+          { to: "blog", label: "Blog", position: "right" },
+          {
             href: "/news",
             label: "News",
             position: "right",
@@ -137,7 +142,8 @@ const config = {
             href: "https://forms.office.com/r/5ww7qRWwwf",
             label: "Feedback",
             position: "right",
-          }
+          },
+          
         ],
       },
       footer: {
